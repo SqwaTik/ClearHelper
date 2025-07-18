@@ -22,7 +22,7 @@
 | UsbDriveLog | История подключений USB |
 | WinPrefetchView | Анализ Prefetch-файлов |
 | OpenSaveFilesView | История открытия/сохранения файлов |
-| DLLView | Просмотр загруженных DLL |
+| JournalTrace | Анализ журнальных событий Windows|
 | ShellBag | История просмотров папок |
 | BrowserDownloadsView | История загрузок браузеров |
 | И другие... | |
