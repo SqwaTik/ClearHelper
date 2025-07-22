@@ -1,0 +1,162 @@
+/* Основные стили */
+QMainWindow {
+    background: transparent;
+}
+
+QDialog {
+    background: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+    border-radius: 10px;
+}
+
+QMenu {
+    background: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QMenu::item {
+    padding: 8px 25px 8px 20px;
+}
+
+QMenu::item:selected {
+    background: #3a3a3a;
+    border-radius: 3px;
+}
+
+QSystemTrayIconMenu {
+    background: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+    border-radius: 5px;
+}
+
+QStatusBar {
+    background: #1a1a1a;
+    color: #aaaaaa;
+    border-top: 1px solid #444444;
+}
+
+/* Кнопки */
+QPushButton {
+    background: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QPushButton:hover {
+    background: #3a3a3a;
+}
+
+QPushButton:pressed {
+    background: #151515;
+}
+
+/* Убрать фокус прямоугольник */
+QPushButton:focus {
+    outline: none;
+}
+
+/* Текстовые поля */
+QTextBrowser, QTextEdit {
+    background: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Вкладки */
+QTabWidget::pane {
+    border: 1px solid #444444;
+    border-radius: 8px;
+    background: #1e1e1e;
+}
+
+QTabBar::tab {
+    background: #2a2a2a;
+    color: #e0e0e0;
+    padding: 8px 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #444444;
+}
+
+QTabBar::tab:selected {
+    background: #3a3a3a;
+    border-bottom-color: #3a3a3a;
+}
+
+/* Светлая тема */
+QWidget[light="true"] {
+    color: #333333;
+}
+
+QDialog[light="true"] {
+    background: #f0f0f0;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+QMenu[light="true"] {
+    background: #f0f0f0;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+QMenu::item:selected[light="true"] {
+    background: #e0e0e0;
+}
+
+QSystemTrayIconMenu[light="true"] {
+    background: #f0f0f0;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+QStatusBar[light="true"] {
+    background: #e0e0e0;
+    color: #555555;
+    border-top: 1px solid #cccccc;
+}
+
+QPushButton[light="true"] {
+    background: #e0e0e0;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+QPushButton:hover[light="true"] {
+    background: #d0d0d0;
+}
+
+QPushButton:pressed[light="true"] {
+    background: #c0c0c0;
+}
+
+QTextBrowser[light="true"], QTextEdit[light="true"] {
+    background: #ffffff;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+QTabWidget::pane[light="true"] {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+QTabBar::tab[light="true"] {
+    background: #e0e0e0;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+QTabBar::tab:selected[light="true"] {
+    background: #ffffff;
+    border-bottom-color: #ffffff;
+}
